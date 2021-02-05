@@ -1,7 +1,16 @@
 * { 
     margin: 0; padding: 0; 
+    cursor: none;
 }
 
+.cursor{
+    font-size:40px;
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    z-index: 2;
+}
 
 .scroll-container {
     height: 100vh;
@@ -73,7 +82,7 @@ h1{
     
     position: relative;
     top: 25%;
-    cursor: default;
+    
 }
 
 #title-text:hover{
@@ -170,3 +179,52 @@ a:hover{
 .five-img{
     height: 50vh;
 }
+
+.three-img{
+    height: 12vh;
+    margin-top: 40;
+}
+
+
+
+h3{
+    font-size: 100px;
+    margin-top: 30;
+}
+
+#car{
+	animation: slide-right 2s linear infinite alternate both;
+}
+
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+  }
+
+#cloud{
+    animation: shake-vertical 3s linear infinite both;
+    font-size: 150;
+}
+
+
+
+
+@keyframes shake-vertical {
+    0%{
+        transform: translateY(-15px);
+    }
+
+    50%{
+        transform: translateY(30px);
+    }
+
+    100%{
+        transform: translateY(-15px);
+    }
+}
+
