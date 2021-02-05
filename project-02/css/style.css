@@ -1,0 +1,94 @@
+* { 
+    margin: 0; padding: 0; 
+}
+
+
+.scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth; 
+  }
+  
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+
+    display: block;
+    box-sizing: border-box;
+
+    padding: 40px;
+    position: relative;
+}
+
+#title-page{
+    background: #D3C1BD;
+}
+
+#one{
+    background: #8FA994;
+}
+
+#two{
+    background: #9E4720;
+    display: block;
+    
+}
+
+#three{
+    background: #A57929;
+}
+
+#four{
+    background: #6D808B;
+}
+
+#five{
+    background: #53621E;
+}
+
+/*text*/
+h1{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.number{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+#title-text{
+    color: #9E4720;
+    font-size: 6vw;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+
+.headings{
+    color: white;
+    font-size: 6vw;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 2vh 0;
+}
+
+.body-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:28;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.instagram-media{
+
+    height: 70vh;
+}
