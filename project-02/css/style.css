@@ -81,7 +81,7 @@ h1{
 .body-text{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size:28;
+    font-size:25;
     width: 85%;
     text-align: center;
     margin: auto;
@@ -91,4 +91,30 @@ h1{
 .instagram-media{
 
     height: 70vh;
+}
+
+#map{
+    position: relative;
+    margin-top: 40px;
+}
+
+.one-link{
+    color:#4C5E4F;
+}
+
+.two-link{
+    color:#4E200C;
+}
+
+.four-img{
+    width: 40vw;
+    margin-top: 40px;
+}
+
+.five-link{
+    color:#232B07;
+}
+
+a:hover{
+    opacity: 70%;
 }
