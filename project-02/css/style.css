@@ -12,6 +12,10 @@
     z-index: 2;
 }
 
+a:hover{
+    opacity: 70%;
+}
+
 .scroll-container {
     height: 100vh;
     overflow-y: scroll;
@@ -36,9 +40,7 @@ section {
 
 #one{
     background: #8FA994;
-   /* display: flex;
-    flex-direction: column;
-    align-items: center;*/
+
 }
 
 #two{
@@ -58,6 +60,21 @@ section {
 
 #five{
     background: #53621E;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-items: flex-start;
+    
+}
+
+.grid-item{
+    padding:30px;
+    align-self: auto;
 }
 
 /*text*/
@@ -85,8 +102,6 @@ h1{
     
 }
 
-
-
 .headings{
     color: white;
     font-size: 6vw;
@@ -101,17 +116,11 @@ h1{
     font-size:25;
     width: 32vw;
     text-align: justify;
- /*   text-align: center;*/
     margin: auto;
     
 }
 
-
-
-#map{
-    position: relative;
-    margin-top: 40px;
-}
+/* embedded and media */
 
 .one-link{
     color:#4C5E4F;
@@ -124,23 +133,7 @@ h1{
 .two-link{
     color:#4E200C;
 }
-/*
-#two-text{
-    width: 50vw;
-    text-align: right;
-    right: 70;
-    position: absolute;
-}
 
-*/
-.map{
-    position: absolute;
-}
-/*
-.instagram-media{
-    position: absolute;
-    
-}*/
 
 .four-img{
     width: 40vw;
@@ -151,38 +144,12 @@ h1{
     color:#232B07;
 }
 
-a:hover{
-    opacity: 70%;
-}
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-   /* grid-column-gap: 40px;
-    grid-template-columns: 1fr 2fr; */
-    align-items: center;
-  justify-content: center;
-    margin: auto;
-    align-items: flex-start;
-    
-}
-
-.grid-item{
-    padding:30px;
-    align-self: auto;
-}
-
 .five-img{
     height: 50vh;
 }
 
-.three-img{
-    height: 12vh;
-    margin-top: 40;
-}
 
-
+/* emoji animation*/
 
 h3{
     font-size: 100px;
@@ -190,11 +157,10 @@ h3{
 }
 
 #car{
-	animation: slide-right 2s linear infinite alternate both;
+	animation: car 2s linear infinite alternate both;
 }
 
-
-@keyframes slide-right {
+@keyframes car {
     0% {
         transform: translateX(0);
     }
@@ -204,14 +170,11 @@ h3{
   }
 
 #cloud{
-    animation: shake-vertical 3s linear infinite both;
+    animation: cloud 3s linear infinite both;
     font-size: 150;
 }
 
-
-
-
-@keyframes shake-vertical {
+@keyframes cloud {
     0%{
         transform: translateY(-15px);
     }
