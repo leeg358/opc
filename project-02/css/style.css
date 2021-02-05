@@ -27,6 +27,9 @@ section {
 
 #one{
     background: #8FA994;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #two{
@@ -37,6 +40,7 @@ section {
 
 #three{
     background: #A57929;
+    
 }
 
 #four{
@@ -68,6 +72,12 @@ h1{
     margin: auto;
     position: relative;
     top: 25%;
+    cursor: default;
+}
+
+#title-text:hover{
+    
+    opacity: 70%;
 }
 
 .headings{
@@ -102,8 +112,30 @@ h1{
     color:#4C5E4F;
 }
 
+.one-vid{
+    position: relative;
+    text-align: center;
+}
+
 .two-link{
     color:#4E200C;
+}
+
+#two-text{
+    width: 50vw;
+    text-align: right;
+    right: 70;
+    position: absolute;
+}
+
+
+.map{
+    position: absolute;
+}
+
+.instagram-media{
+    position: absolute;
+    
 }
 
 .four-img{
