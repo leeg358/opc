@@ -53,15 +53,24 @@ h1{
 }
 
 h3{
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 300;
+    letter-spacing: .16em;
+
     font-size: 1.5em;
     color: #111923;
     border: 2px solid #111923;
+
     top: 20%;
     padding: 20px 30px;
     margin: 10% 0 0 0;
     text-align: center;
+}
+
+h3:hover{
+    color: #F4F3E8;
+    border: 2px solid #F4F3E8;
+
 }
 
 a:link {
@@ -82,6 +91,7 @@ a:link {
     text-align: center;
     font-size: 4em;
     margin: 0 0 20 0;
+    color: #346BB4;
 }
 
 .description{
@@ -90,4 +100,9 @@ a:link {
     font-size: 1em;
     text-align: center;
     margin: 10 0 30 0;
+
+}
+
+.course-container{
+    margin: 10;
 }
