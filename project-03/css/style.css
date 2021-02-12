@@ -1,0 +1,93 @@
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* invitation */ 
+
+#invitation-body{
+    width: 100vw;
+    height: 100vh;
+
+    background: #346BB4;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.item{
+    align-self: auto;
+    padding: 30px;
+}
+
+.subheading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: .16em;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: #111923;
+}
+
+.title{
+    color: #F4F3E8;
+    font-size: 4em;
+    text-align: center;
+    margin: 0 0 20 0;
+}
+
+#remy-pic{
+    margin: 20% 0 0 -15%;
+    height: 70vh;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #111923;
+    border: 2px solid #111923;
+    top: 20%;
+    padding: 20px 30px;
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+/* menu */
+
+#menu-body{
+    background: #F4F3E8;
+}
+
+.course{
+    text-align: center;
+    font-size: 4em;
+    margin: 0 0 20 0;
+}
+
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    margin: 10 0 30 0;
+}
