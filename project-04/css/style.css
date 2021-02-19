@@ -2,20 +2,47 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0;
+
+    display: grid;
 }
 
-
-header{
-    width: 100vw;
-    /*background: lightblue;*/
-    display: block;
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto 1fr;
     align-items: center;
-    justify-content: center;
-    position: fixed;
+}
 
-    
+.one {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    background-color: white;
 
-}   
+    height: fit-content;
+  }
+  .two {
+    grid-column: 1 / 5;
+    grid-row: 2;
+
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: pink;
+    display: flex;
+  }
+  /* .four {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: lightcyan;
+  }
+  .five{
+      grid-column: 3 / 5;
+      grid-row: 3;
+      background-color: green;
+  } */
+
+
 
 .title{
     font-family:'Sniglet', cursive;
@@ -24,12 +51,7 @@ header{
     letter-spacing: 0.235em;
     font-size: 9vw;
     margin: auto;
-    margin-top: 3%;
-
-
-    position: relative;
-
-   
+    margin-top: 10; 
 }
 
 h2{
@@ -40,11 +62,69 @@ h2{
 }
 
 .subtitle{
-    font-size: 1.75vw;
-    margin: 0;
+    font-size: 20px;
+    margin: 0 0 20 0;
 }
 
-/* BRACHIOSAURUS */
+.description{
+    font-size: 1.75vw;
+    width: 80vw;
+    margin: 20 auto ;
+}
+
+.ned-img{
+    height: 350px;
+    border-radius: 25px;
+    
+}
+
+.comparison-img{
+    height:350px;
+    border-radius: 25px;
+
+}
+
+h3{
+    font-family:'Sniglet', cursive;
+    font-weight: 400;
+    text-align: center; 
+    letter-spacing: 0.1em;
+    font-size: 1.4em;
+}
+
+.body-items{
+    display: inline-block
+}
+.body-1{
+    text-align: center;
+}
+
+.body-2{
+    width: 60%;
+    margin: auto;
+}
+
+.brachiosaurus{
+    background-color:#84988B;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+}
+
+.Triceratops{
+    background-color:#9EB6BA;
+    width: 100vw;
+    height: 400px;
+}
+
+.velociraptor{
+    background-color:#D1A576;
+    width: 100vw;
+    height: 400px;
+}
+
+
+/* BRACHIOSAURUS */ /*
 .brachiosaurus{
     background-color: #84988B;
     position: absolute;;
@@ -117,15 +197,14 @@ h2{
     text-align: center;
     margin: auto;
     padding: 0;
-}
-
+} */
 
 @media only screen and (min-width: 0px) {
 
-    #velociraptor{
+    .velociraptor{
         display: block;
     }
-    #triceratops{
+    .triceratops{
         display: none;
     }
     .brachiosaurus{
@@ -133,10 +212,10 @@ h2{
     }
 
 @media only screen and (min-width: 800px){
-    #velociraptor{
+    .velociraptor{
         display: none;
     }
-    #triceratops{
+    .triceratops{
         display: block;
     }
     .brachiosaurus{
@@ -146,10 +225,10 @@ h2{
 
 
 @media only screen and (min-width: 1200px) {
-    #velociraptor{
+    .velociraptor{
         display: none;
     }
-    #triceratops{
+    .triceratops{
         display: none;
     }
     .brachiosaurus{
