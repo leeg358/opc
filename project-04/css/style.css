@@ -31,17 +31,6 @@ body{
     background-color: pink;
     display: flex;
   }
-  /* .four {
-    grid-column: 2;
-    grid-row: 3;
-    background-color: lightcyan;
-  }
-  .five{
-      grid-column: 3 / 5;
-      grid-row: 3;
-      background-color: green;
-  } */
-
 
 
 .title{
@@ -67,7 +56,7 @@ h2{
 }
 
 .description{
-    font-size: 1.75vw;
+    font-size: 1.5em;
     width: 80vw;
     margin: 20 auto ;
 }
@@ -75,21 +64,39 @@ h2{
 .ned-img{
     height: 350px;
     border-radius: 25px;
-    
+}
+
+.trixie-img{
+    height: 250px;
+    border-radius: 25px;
+}
+
+.velociraptor-img{
+    height: 150px;
+    border-radius: 25px;
 }
 
 .comparison-img{
     height:350px;
     border-radius: 25px;
-
 }
+.comparison-img2{
+    height:250px;
+    border-radius: 25px;
+}
+.comparison-img3{
+    height:150px;
+    border-radius: 25px;
+}
+
 
 h3{
     font-family:'Sniglet', cursive;
     font-weight: 400;
     text-align: center; 
     letter-spacing: 0.1em;
-    font-size: 1.4em;
+    font-size: 1.25em;
+    color: white;
 }
 
 .body-items{
@@ -97,6 +104,7 @@ h3{
 }
 .body-1{
     text-align: center;
+
 }
 
 .body-2{
@@ -107,97 +115,25 @@ h3{
 .brachiosaurus{
     background-color:#84988B;
     width: 100vw;
-    bottom: 0;
-    position: fixed;
+    height: 100vh;
+
 }
 
 .Triceratops{
     background-color:#9EB6BA;
     width: 100vw;
-    height: 400px;
+    height: 100vh;
+
 }
 
 .velociraptor{
     background-color:#D1A576;
     width: 100vw;
-    height: 400px;
-}
-
-
-/* BRACHIOSAURUS */ /*
-.brachiosaurus{
-    background-color: #84988B;
-    position: absolute;;
-    display: block;
-    width: 100%;
-    height: 70%;
-    bottom: 0;
-}
-
-.container{
-    display: inline-flex;
-    flex-direction: row;
-   background: lightblue;
-   margin: 0 40 50 40;
-
+    height: 100vh;
 
 }
 
-.body-text{
-    width: 80vw;
-    margin: auto;
-    font-size: 25px;
-}
 
-
-
-#character-container{
-    display: inline-flex;;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-
-    background: white;
-    border-radius: 25px;
-    width: 40vw;
-    
-}
-
-.grid-item{
-    padding:30px;
-    align-self: auto;
-}
-
-#ned{
-    max-width: 100%;
-    min-width: 200px;
-    border-radius: 5%;
-    margin: auto;
-}
-.comparison-container{
-    display: inline-table;
-    width: 40vw;
-}
-.comparison-img{
-    width: 450px;
-    margin: 0;
-    border-radius: 20px;
-
-}
-
-.character-text{
-    font-size: 15px;
-}
-
-.second-text{
-    width: 20vw;
-    font-size: 15px;
-    width: 400px;
-    text-align: center;
-    margin: auto;
-    padding: 0;
-} */
 
 @media only screen and (min-width: 0px) {
 
