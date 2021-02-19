@@ -4,18 +4,18 @@ body{
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
 
 header{
-    height: 30%;
-    background: lightblue;
-
+    width: 100vw;
+    /*background: lightblue;*/
     display: block;
-    justify-content: center;
     align-items: center;
-}
+    justify-content: center;
+    position: fixed;
+
+    
+
+}   
 
 .title{
     font-family:'Sniglet', cursive;
@@ -23,22 +23,137 @@ header{
     text-align: center;
     letter-spacing: 0.235em;
     font-size: 9vw;
-    margin: 0;
+    margin: auto;
+    margin-top: 3%;
+
+
+    position: relative;
+
+   
+}
+
+h2{
+    font-family:'Sniglet', cursive;
+    font-weight: 400;
+    text-align: center; 
+    letter-spacing: 0.1em;
 }
 
 .subtitle{
-    font-family:'Sniglet', cursive;
-    font-weight: 400;
-    text-align: center;
     font-size: 1.75vw;
-    letter-spacing: 0.1em;
     margin: 0;
+}
+
+/* BRACHIOSAURUS */
+.brachiosaurus{
+    background-color: #84988B;
+    position: absolute;;
+    display: block;
+    width: 100%;
+    height: 70%;
+    bottom: 0;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: row;
+   background: lightblue;
+   margin: 0 40 50 40;
+
 
 }
 
+.body-text{
+    width: 80vw;
+    margin: auto;
+    font-size: 25px;
+}
 
-/*
+
+
+#character-container{
+    display: inline-flex;;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    background: white;
+    border-radius: 25px;
+    width: 40vw;
+    
+}
+
+.grid-item{
+    padding:30px;
+    align-self: auto;
+}
+
+#ned{
+    max-width: 100%;
+    min-width: 200px;
+    border-radius: 5%;
+    margin: auto;
+}
+.comparison-container{
+    display: inline-table;
+    width: 40vw;
+}
+.comparison-img{
+    width: 450px;
+    margin: 0;
+    border-radius: 20px;
+
+}
+
+.character-text{
+    font-size: 15px;
+}
+
+.second-text{
+    width: 20vw;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 0px) {
+
+    #velociraptor{
+        display: block;
+    }
+    #triceratops{
+        display: none;
+    }
+    .brachiosaurus{
+        display: none;
+    }
+
+@media only screen and (min-width: 800px){
+    #velociraptor{
+        display: none;
+    }
+    #triceratops{
+        display: block;
+    }
+    .brachiosaurus{
+        display: none;
+    }
+}
+
+
 @media only screen and (min-width: 1200px) {
-        // styles would go inside here
-}
-    */
+    #velociraptor{
+        display: none;
+    }
+    #triceratops{
+        display: none;
+    }
+    .brachiosaurus{
+        display: block;
+    }
+}}
+  
