@@ -1,13 +1,16 @@
+/* FLEX BOOX*/
+
 .child {
-    height: 100px;
     margin: 0 10px 10px 0;
     background: #333;
     color: #eee;
-    font-size: 80px;
     line-height: 100px;
     text-align: center;
-    
     flex: 1 1 ;
+
+    border-radius: 20px;
+
+    font-family: 'Quicksand', sans-serif;
   }
 
   .row {
@@ -21,28 +24,48 @@
   
   .block{
     flex: 1;
- 
-    
-    
     margin: 0 10px 10px 0;
-    
-    
     background: #333;
     color: #eee;
-    font-size: 80px;
     line-height: 100px;
     text-align: center;
+    border-radius: 20px;
+
+    font-family: 'Quicksand', sans-serif;
   }
   
   .block-two{
     flex: 2;
+    margin: 0 10px 10px 0;
+    background: #333;
+    color: #eee;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 20px;
+
+    font-family: 'Quicksand', sans-serif;
+}
+  
+/* CONTENT */
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: .75em;
+    margin: 0 0 20 10;
+}
 
 
-margin: 0 10px 10px 0;
-background: #333;
-color: #eee;
-font-size: 80px;
-line-height: 100px;
-text-align: center;
+#title{
+    background-color: #113E53;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: black;
 }
   
