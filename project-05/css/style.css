@@ -4,7 +4,7 @@ body{
 /* FLEX BOX*/
 
 .child {
-    flex: 1;
+    flex: 1 1 auto;
     margin: 5;
     padding: 15;
     text-align: center;
@@ -14,6 +14,7 @@ body{
   }
 
   .row {
+ 
     display: flex;
     align-items: stretch;
 
