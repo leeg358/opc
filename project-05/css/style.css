@@ -1,7 +1,7 @@
 body{
     background-color: #113E53;
 }
-/* FLEX BOOX*/
+/* FLEX BOX*/
 
 .child {
     flex: 1;
@@ -9,8 +9,6 @@ body{
     padding: 15;
     text-align: center;
     border-radius: 20px;
-    
-    
 
     font-family: 'Quicksand', sans-serif;
   }
@@ -67,6 +65,7 @@ h3{
     font-weight: 300;
     font-size: .75em;
     margin: 0 0 20 10;
+    color: white;
 }
 
 
@@ -98,16 +97,16 @@ background: linear-gradient(180deg, rgba(241,144,31,1) 0%, rgba(246,248,226,1) 1
 
 a:link, a:visited {
     text-decoration: underline;
-    color: black;
+    color: white;
 }
   
 img{
-    width: 50%;
+    width: 40%;
     margin: 30 0 30 0;
     border-radius: 20px;
     border: white solid;
 }
 
 .big-img{
-    width: 90%;
+    width: 85%;
 }
