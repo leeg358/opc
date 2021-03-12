@@ -1,0 +1,25 @@
+body{
+    background-color: #97b0a5;
+}
+
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3em;
+
+    text-align: center;
+    color: black;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 60vw;
+margin: auto ;
+text-align: center;
+color: #46524d;
+}
+
+.airtable-embed{
+    margin-top: 3%;
+}
