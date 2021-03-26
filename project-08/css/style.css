@@ -1,0 +1,23 @@
+body {
+    
+    font-size: 32px;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: .75em;
+
+}
+
+#description{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
