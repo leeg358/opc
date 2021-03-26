@@ -12,7 +12,7 @@ const recipe = {
       "3 tbsp olive oil ",
       "3/4 tsp salt",
       "1/2 tsp ground black pepper",
-      "2 tbsp balsamic glaze",
+      "2 tbsp balsamic glazes",
     ],
   
     name: "Roasted Brussels Sprouts with Balsamic",    
