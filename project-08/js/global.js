@@ -21,7 +21,7 @@ const recipe = {
         "INSTRUCTIONS: Preheat oven to 425°F. Line a baking sheet with aluminum foil. Trim and half the brussels sprouts. Toss the brussels sprouts in a large bowl with olive oil, salt, and black pepper. Transfer the sprouts to the baking sheet and roast until tender and caramelized (about 20 minutes). Broil the brussels sprouts for 2-3 more minutes. Place on a plate and drizzle balsamic glaze over. Serve!",
       ],
  
-    recipeYield: "YIELD: 8 servings",
+    recipeYield: "YIELD: 4 servings",
 
   };
   

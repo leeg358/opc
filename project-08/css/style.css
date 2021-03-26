@@ -1,12 +1,46 @@
 body {
-    
+    background-color: #CE8D63;
+    margin: 50px;
     font-size: 32px;
 }
+
+.container{
+    display: flex;
+    flex: 1;
+
+}
+
+.block1{
+    flex: 2;    
+    padding: 20px;
+}
+.block{
+    flex: 3;
+    padding: 20px;
+    color: #3e423c;
+
+}
+
+img{
+    width: 100%;
+
+
+}
+
+#description{
+    width: 50vw;
+    font-size: .9em;
+
+
+    color: #e1f0da;
+}
+
 h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 2em;
     text-align: center;
+    color: #4c6341;
 }
 
 h2{
@@ -14,10 +48,8 @@ h2{
     font-weight: 400;
     font-size: .75em;
 
+    text-align: center;
+
+    margin: auto;
 }
 
-#description{
-    width: 60vw;
-    margin: auto;
-    text-align: center;
-}
