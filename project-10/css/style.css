@@ -1,0 +1,82 @@
+body{
+    margin: 60px;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+h1{
+    font-family: p22-underground, sans-serif;
+    font-weight: 500;
+    line-height: 1rem;
+
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    position: relative;
+    margin-right: 20px;
+}
+
+h3{
+    font-family: laski-sans, sans-serif;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+img{
+    width: 25vw;
+    text-align: center;
+    margin: auto;
+    margin: 10px;
+}
+
+iframe{
+ 
+    margin: 10px;
+}
+
+a{
+    font-family: laski-sans, sans-serif;
+    
+   
+    font-weight: 6=400;
+    font-size: 1.5rem;
+}
+
+a:link {
+    color: black;
+  }
+  
+
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:active {
+    color: black;
+  }
+#figma{
+    width: 60%;
+}
+
+#background-video{
+    z-index: -1;
+    opacity: 1;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    object-fit: fill;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+}
