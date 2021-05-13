@@ -1,0 +1,135 @@
+
+  h1{
+    font-family:'Newsreader', serif;
+    font-weight: 200;
+    font-size: 70px;
+    color:black;
+  
+  }
+  
+  body {
+    background: #ECE7D1;
+    text-align: center;
+
+  
+  }
+  
+h2{
+  font-family:'Newsreader', serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 30px;
+}
+
+  .hidden {
+    display: none !important;
+  }
+  
+  .shelf {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+  }
+  
+  img{
+    height: 300px;
+    margin: auto;
+  }
+  
+  
+  .shelf .oil-spine {
+    background: white;
+
+  border-radius: 100px;
+  
+    padding:5px;
+   
+    
+    margin-bottom: 10px;
+    margin-right: 10px;
+ 
+    font-size: 12px;
+  
+    cursor: pointer;
+  }
+  
+  .shelf .oil-spine.active {
+    background: grey;
+  }
+  
+  .shelf .oil-spine:hover {
+    background: lightblue;
+  }
+  
+  .oil-detail {
+   display: inline-block;
+  }
+  
+  .oil-detail .figure {
+    width: 200px;
+    flex: none;
+    margin-right: 30px;
+  }
+  
+  .oil-detail .image {
+    width: 100%;
+    border: 5px solid grey;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .oil-detail .info {
+    max-width: 600px;
+  
+  }
+  
+  .oil-detail .names {
+    
+    text-transform: uppercase;
+    margin-top: 0;
+    color:black;
+    font-size:50px
+    
+  }
+  
+  .oil-detail .trait {
+    margin-top: 0.5em;
+    
+     color:black;
+    font-size:35px
+  
+    
+  }
+  
+  @media (max-width: 600px) {
+    .oil-detail {
+      flex-direction: column;
+    }
+    .oil-detail .figure {
+     
+      max-width: 300px;
+      margin: auto;
+      margin-bottom: 2em;
+      justify-content:center;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .oil-detail {
+      flex-direction: column;
+    }
+    .oil-detail .figure {
+      
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 2em;
+      text-align: center;
+    }
+  }
+  
+  
